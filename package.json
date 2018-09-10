@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud beta functions deploy faucetRequest",
+    "create": "gcloud beta functions deploy faucetRequest --runtime nodejs8 --trigger-http"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcntrlzd/metamask-faucet-proxy.git"
