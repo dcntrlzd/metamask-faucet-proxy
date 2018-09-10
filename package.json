@@ -1,0 +1,24 @@
+{
+  "name": "metamask-faucet-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcntrlzd/metamask-faucet-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcntrlzd/metamask-faucet-proxy/issues"
+  },
+  "homepage": "https://github.com/dcntrlzd/metamask-faucet-proxy#readme",
+  "devDependencies": {
+    "@google-cloud/functions-emulator": "^1.0.0-beta.5",
+    "@google-cloud/nodejs-repo-tools": "^2.3.3",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
